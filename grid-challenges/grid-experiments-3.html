@@ -5,9 +5,12 @@ Professor Putnam
 Author: Tammy Knox
 Assignment 2
 
-First Grid Challenge:
-Three columns in which the first spans two columns, the second spans 6 columns and the last spans four columns. Make sure that they span the same columns at ALL sizes. 
-Color code (using different colors than I did) your columns and add padding.
+Third Grid Challenge:
+- Create three color coded columns in which the first spans two columns when large but is not visible at medium AND smaller
+- The second spans 6 columns when large but 12 columns when medium AND smaller
+- The last spans four columns when large and 12 columns when medium AND smaller.
+- Be sure to add a row-gap between the column elements 
+
 -->
 <!doctype html>
 <html lang="en">
@@ -23,18 +26,18 @@ Color code (using different colors than I did) your columns and add padding.
 
   <body>
     <div class="container-lg text-center">
-      <h1 class="page-title">Bootstrap Challenge 1</h1>
+      <h1 class="page-title">Bootstrap Challenge 3</h1>
         <div class="row row-gap-3 mt-3">
-          <div class="col-lg-2 col-md-2 col-sm-2 magenta-col py-3 mt-3">
+          <div class="col-lg-2 d-lg-inline d-none d-sm-none d-md-none magenta-col py-3 mt-3">
             <h2><a href="../index.html">Home</a></h2>
             <p>(Column 1)</p>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 beige-col py-3 mt-3">
-            <h2><a href="../grid-challenges/grid-experiments-2.html">See challenge 2</a></h2>
+          <div class="col-lg-6 col-md-12 col-sm-12 beige-col py-3 mt-3">
+            <h2><a href="../grid-challenges/grid-experiments.html">See challenge 1</a></h2>
             <p>(Column 2)</p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 light-blue-col py-3 mt-3">
-            <h2><a href="../grid-challenges/grid-experiments-3.html">See challenge 3</a></h2>
+          <div class="col-lg-4 col-md-12 col-sm-12 light-blue-col py-3 mt-3">
+            <h2><a href="../grid-challenges/grid-experiments-2.html">See challenge 2</a></h2>
             <p>(Column 3)</p>
           </div>
         </div>

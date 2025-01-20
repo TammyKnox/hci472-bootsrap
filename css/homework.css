@@ -5,3 +5,52 @@ HCI 472
 Professor Putnam
 Assignment 2: Bootstrap Homework
 **/
+
+.page-title{
+    font-size: 32px;
+    margin-top:1.5em;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+a:hover{
+    color:darkmagenta;
+
+}
+
+a:active{
+    color:darksalmon;
+
+}
+
+h2{
+    font-size: 24px;
+}
+
+p{
+    font-size:14px;
+}
+.magenta-col{
+    background-color:rgb(217, 61, 217);
+    color:#fff;
+}
+
+.beige-col{
+    background-color:goldenrod;
+}
+
+.light-blue-col{
+    background-color:lightblue;
+}
+
+ul li{
+    list-style: none;
+    font-size:18px;
+    display:inline-block;
+    padding: 16px 10px;
+}
