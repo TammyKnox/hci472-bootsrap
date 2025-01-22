@@ -6,6 +6,22 @@ Professor Putnam
 Assignment 2: Bootstrap Homework
 **/
 
+.eb-garamond-body {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans-headings {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .page-title{
     font-size: 32px;
     margin-top:1.5em;
@@ -34,6 +50,10 @@ h2{
 
 p{
     font-size:14px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .magenta-col{
     background-color:rgb(217, 61, 217);
