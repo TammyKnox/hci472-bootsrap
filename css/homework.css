@@ -8,7 +8,7 @@ Assignment 2: Bootstrap Homework
 body{
     margin:0;
     padding:0;
-    background-color:rgb(250, 241, 230);
+    background-color:rgb(247, 231, 212) !important;
 }
 .eb-garamond-body {
   font-family: "EB Garamond", serif;
