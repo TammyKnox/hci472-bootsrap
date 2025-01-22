@@ -35,21 +35,27 @@ a{
 }
 
 a:hover{
-    color:darkmagenta;
+    color:#dc7853;
 
 }
 
 a:active{
-    color:darksalmon;
+    color:#dc7853;
 
 }
 
 h2{
     font-size: 24px;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 p{
-    font-size:14px;
+    font-size:18px;
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -75,6 +81,9 @@ ul li{
     padding: 16px 10px;
 }
 
+.dark-navy{
+    background-color:#17152e !important;
+}
 /*Bootstrap Styles Override*/
 
 .bg-body-tertiary{
@@ -82,5 +91,27 @@ ul li{
 }
 
 a.nav-link{
+    color:rgb(215, 215, 215);
+}
+
+.navbar-nav .nav-link.active{
     color:#dc7853;
+}
+
+.navbar-nav .nav-link:hover{
+    color:#dc7853;
+}
+
+.navbar-brand{
+    color:#fff;
+}
+
+.navbar-brand:hover{
+    color:#dc7853;
+}
+.nav-link.show{
+    color:#dc7853 !important;
+}
+.footer-tk{
+    color:#000;
 }
