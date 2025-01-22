@@ -77,9 +77,10 @@ ul li{
 
 /*Bootstrap Styles Override*/
 
-nav.navbar.bg-body-tertiary{
-    background-color:rgb(23, 21, 46) !important;
+.bg-body-tertiary{
+    background-color:#17152e !important;
 }
-.navbar-nav > .nav-item{
+
+ul.navbar-nav > li.nav-item{
     color:#fff;
 }
