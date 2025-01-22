@@ -81,6 +81,6 @@ ul li{
     background-color:#17152e !important;
 }
 
-ul.navbar-nav > li.nav-item{
-    color:#fff;
+a.nav-link{
+    color:#dc7853;
 }
