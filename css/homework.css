@@ -5,7 +5,11 @@ HCI 472
 Professor Putnam
 Assignment 2: Bootstrap Homework
 **/
-
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(250, 241, 230);
+}
 .eb-garamond-body {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
